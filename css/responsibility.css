@@ -1,0 +1,389 @@
+@media  screen and (max-width: 1140px) {
+    .card-list-item {
+        font-size: var(--font-s);
+        line-height: 26px;
+    }
+
+    .contacts-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        'a2 a2'
+        'b2 c2'
+        'e2 f2'
+        'h2 j2';
+    
+        row-gap: 16px;
+        column-gap: 26px;
+    }
+
+    .grid-d {
+        display: none;
+    }
+
+    .grid-g {
+        display: none;
+    }
+}
+
+@media  screen and (max-width: 993px) {
+    .introduction-card-btn {
+        height: 68px;
+        font-size: var(--font-m);
+    }
+
+    .services-container{
+        padding: 30px 10px;
+    }
+
+    .price {
+        background-image: url('../img/price/bg-individual.svg');
+        background-repeat: no-repeat;
+        background-position: bottom 4% left 40%;
+        background-size: 18%;
+    }
+
+    .price-card-container {
+        gap: 16px;
+    }
+
+    .price-card {
+        padding: 20px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        padding: 40px 10px 100px;
+    }
+
+    .contacts-container-info {
+        max-width: 1190px;
+        gap: 16px;
+    }
+
+    .contacts-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'a2 a2 a2'
+        'b2 c2 d2'
+        'e2 f2 g2'
+        'h2 j2 0';
+
+        row-gap: 8px;
+    }
+
+    .grid-d {
+        display: block;
+    }
+
+    .grid-g {
+        display: block;
+    }
+
+    .contacts-container-connection {
+        max-width: 100%;
+        gap: 16px;
+    }
+
+    .connection-form {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar-description {
+        display: none;
+    }
+
+    .introduction-title-h1 {
+        font-size: var(--font-xxl);
+        line-height: 80px;
+    }
+
+    .tittle-h2 {
+        font-size: var(--font-xl);
+        line-height: 50px;
+    }
+
+    .introduction-items-container {
+        display: grid;
+        grid-template-columns: 1.1fr 1.3fr 1fr;
+        grid-template-rows: 0.8fr 1fr;
+        gap: 30px;
+        grid-template-areas: 
+        'a b f'
+        'a d c';
+    }
+
+    .introduction-item-window,
+    .introduction-item-letter,
+    .introduction-item-shoes,
+    .introduction-card-description {
+        display: none;
+    }
+
+    .introduction-item-description {
+        text-align: start;
+    }
+
+    .price-title-container {
+        gap: 10px;
+    }
+
+    .tittle-h5 {
+        margin: 0;
+    }
+
+    .price {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.62fr 2.2fr 2.2fr;
+        grid-template-areas: 
+        'a3 a3'
+        'b3 d3'
+        'c3 c3';
+
+        background-position: bottom 1% left 30%;
+        background-size: 30%;
+    }
+
+    .individual-card {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .card-description {
+        font-size: var(--font-s);
+    }
+
+    .card-description-individual {
+        top: 14px;
+        right: 8px;
+    }
+
+    .card-list-item::before {
+        margin-right: 6px;
+        padding: 6px 7px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .navbar {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;   
+    }
+
+    .header-menu {
+        justify-content: space-around;
+    }
+
+    .introduction-items-container {
+        display: grid;
+        grid-template-columns: 2.1fr 1.3fr 1fr;
+        grid-template-rows: 0.8fr 1fr;
+        gap: 30px;
+        grid-template-areas: 
+        'a b b'
+        'a d d';
+    }
+
+    .introduction-item-description,
+    .introduction-item-book {
+        display: none;
+    }
+
+    .tittle-h2 {
+        line-height: 48px;
+    }
+
+    .services-container {
+        grid-template-rows: 0.6fr 1.47fr 1.47fr;
+        grid-template-areas: 
+        'a1 a1 a1 a1'
+        'b1 b1 c1 c1'
+        'd1 d1 e1 e1';
+    }
+
+    .price {
+        background-position: bottom 4% left 26%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .card-title-h4 {
+        font-size: var(--font-lx);
+    }
+
+    .price {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.62fr 2.2fr 2.2fr 2.2fr;
+        column-gap : 30px;
+        row-gap: 40px;
+        grid-template-areas: 
+        'a3'
+        'b3'
+        'd3'
+        'c3';
+
+        background-position: bottom 3% left 14%;
+        background-size: 30%;
+    }
+
+    .price-card {
+        background: var(--white);
+        box-shadow: 0 4px 4px 4px rgb(0, 0, 0, 0.2);
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .price-card-btn {
+        color: var(--white);
+        background: var(--purple-dark)
+    }
+
+    .individual-card {
+        color: var(--white);
+        background: var(--purple-dark);
+    }
+
+    .description-individual {
+        color: var(--white);
+    }
+
+    .card-description-individual {
+        border: 1px solid var(--white);
+    }
+
+    .individual-card:hover {
+        box-shadow: 0 4px 4px 4px rgba(2, 252, 231, 0.8);
+    }
+
+    .individual-btn {
+        color: var(--purple-dark);
+        background: var(--white);
+    }
+
+    .free-card,
+    .corporate-card {
+        margin: 0 auto;
+    }
+
+    .contacts-info {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar,
+    .menu-logo-img {
+        display: none;
+    }
+
+    .burger-menu {
+        display: block;   
+    }
+
+    .burger-menu-img {
+        width: 50px;
+    }
+
+    .introduction-title-h1 {
+        line-height: 60px;
+    }
+
+    .tittle-h2 {
+        font-size: var(--font-lx);
+        line-height: 46px;
+    }
+
+    .tittle-h3 {
+        font-size: var(--font-l);
+    }
+
+    .tittle-h5 {
+        font-size: var(--font-m);
+    }
+
+    .navbar-btn {
+        width: 140px;
+        height: 50px;
+    }
+
+    .header-menu {
+        justify-content: space-around;
+    }
+
+    .introduction-items-container {
+        max-height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2.34fr 0.945fr 0.8fr;
+        grid-template-areas: 
+        'a'
+        'd'
+        'b';
+    }
+
+    .introduction-card-container{
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .introduction-card-btn {
+        max-width: 100%;
+    }
+
+    .services-container {
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+
+    .tittle-h4 {
+        font-size: var(--font-l);
+        line-height: 40px;
+    }
+
+    .price {
+        background-position: left bottom 2%;
+        background-size: 50%;
+    }
+
+    .contacts {
+        gap: 10px;
+    }
+
+    .connection-form {
+        flex-direction: column;
+        width: 100%;
+
+        margin: 0 auto;
+        gap: 14px;
+    }
+
+    .connection-container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .connection-title {
+        font-size: var(--font-l);
+    }
+
+    .connection-container-textarea,
+    .connection-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .introduction-items-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 0.945fr 0.8fr;
+    }
+}

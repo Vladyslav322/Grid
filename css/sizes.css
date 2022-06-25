@@ -1,0 +1,11 @@
+:root {
+    --font-sm: 12px;
+    --font-s: 14px;
+    --font-base: 18px;
+    --font-m: 24px;
+    --font-l: 32px;
+    --font-lx: 34px;
+    --font-xl: 48px;
+    --font-xxl: 64px;
+    --font-xxxl: 96px; 
+}
